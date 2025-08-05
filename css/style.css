@@ -1,0 +1,127 @@
+/*=============   Global selecters       ============*/
+
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: source-sans-pro;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.bg-black {
+	background-color: #000;
+}
+
+.text-black {
+	color: #000;
+}
+
+.text-gold {
+	color: #b8a07e;
+}
+
+#portfolio button {
+	color: #fff !important;
+}
+
+#portfolio button:hover {
+	background-color: #b8a07e !important;
+	color: #fff !important;
+}
+
+#portfolio .active {
+	background-color: #b8a07e !important;
+	color: #fff !important;
+}
+
+hr {
+	 border: 2px solid black;
+	 width: 30px;
+}
+
+#about, #services, #portfolio, #contact{
+	padding: 5rem 0px;
+}
+
+/*    ============   Navigation    ===========             */
+
+.nav {
+	height: 8vh;
+}
+
+.nav-link {
+	padding: 8px 25px !important;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	color: black !important;
+	transition: all 0.3s linear;
+}
+
+.nav-link:hover {
+	background-color: black;
+	color: white !important;
+}
+
+/*      ========================          */
+
+#home {
+	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../img/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+}
+
+.display-1 {
+	text-shadow: 5px 5px 5px black;
+}
+
+.card:hover {
+	box-shadow: -3px 18px 20px 0px gray !important;
+	transform: translateY(-10px);
+	transition: all 0.3s ease-in-out;
+}
+
+/*============  About  ==========*/
+
+#about .img-bg {
+  padding-bottom: 30px;
+  border: 20px solid #b8a07e;
+  box-shadow: -3px 18px 20px 0px black !important;
+}
+
+#about .img-bg .about-img img {
+  width: 100%;
+  box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
+  margin-top: -60px;
+  margin-left: 40px;
+  height: 350px;
+  object-fit: cover;
+}
+
+
+/*============  Footer  ==========*/
+
+#footer, #about, #portfolio {
+	background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../img/cover.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+}
+
+#footer .nav {
+	height: 15%;
+}
+
+#footer .nav-link {
+	padding: 8px 20px !important;
+}
+
+#footer i {
+	color: #ffffff;
+	font-size: 1.2rem;
+}
